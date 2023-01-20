@@ -26,3 +26,5 @@ https://doi.org/10.48550/arXiv.2301.06983
 
 Version 7
 Checking of the  mass conservation law has been added.
+
+The work is supported by the grant 22-79-10216 from the Russian Science Foundation https://rscf.ru/en/project/22-79-10216/
