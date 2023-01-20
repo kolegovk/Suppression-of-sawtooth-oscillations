@@ -1,0 +1,3 @@
+Kolegov, K. S. (2023). 
+Suppression of sawtooth oscillations when using a finite-difference scheme for mass transfer simulation via the lubrication approximation in a droplet evaporated on a substrate. 
+https://doi.org/10.48550/arXiv.2301.06983
