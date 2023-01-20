@@ -4,6 +4,6 @@ Instruction
 1) Running the program with default parameters: program.exe
 2) Running the program with parameters on the command line: program.exe tf dt
 
-To compile the code and create an executable file, use Visual Studio 2022 Community Edition.
+To compile the code and create an executable file, you should use Visual Studio 2022 Community Edition or another version.
 
 Requirements: OS Windows 10 or higher.
