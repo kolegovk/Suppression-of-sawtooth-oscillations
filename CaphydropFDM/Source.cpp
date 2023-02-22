@@ -81,8 +81,8 @@ double z[Mp1];
 const double C0 = 0.05;//initial mass fraction of the substance
 const double Cg = 0.7;// gelation concentration
 const double Cg2 = Cg * Cg;
-const double S = 1.692; //parameter in Mooney’s formula
-const double K = 1.236; //parameter in Mooney’s formula
+const double S = 1.692; //parameter in Mooneyâ€™s formula
+const double K = 1.236; //parameter in Mooneyâ€™s formula
 const double D = 1.0e-10;//diffusion coefficient of a dissolved or suspended substance [m2/s]
 const double eta = 0.001;//viscosity of the liquid [Pa*s]
 const double eta_Cg = exp(S * Cg / (1.0 - K * Cg));//dimensionless viscosity at critical concentration
@@ -176,7 +176,7 @@ https://doi.org/10.48550/arXiv.2301.06983" << endl;
 			std::string str1(argv[i]);
 			tf = std::stod(str1);
 		}
-		if (n == 2) {
+		if (i == 2) {
 			std::string str2(argv[i]);
 			dt = std::stod(str2);
 		}
@@ -284,7 +284,7 @@ https://doi.org/10.48550/arXiv.2301.06983" << endl;
 				}
 				// Calculate the viscosity.
 				if (C[n] <= Cg)//Dependence of dimensionless viscosity on the mass fraction.
-					eta_[n] = exp(S * C[n] / (1.0 - K * C[n]));// Mooney’s formula.
+					eta_[n] = exp(S * C[n] / (1.0 - K * C[n]));// Mooneyâ€™s formula.
 				else
 					eta_[n] = eta_Cg;
 			}
