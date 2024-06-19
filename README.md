@@ -18,11 +18,25 @@ on a substrate and containing a suspended or dissolved substance
 based on the lubrication approximation. The finite difference method is
 used here. The problem of sawtooth oscillations has been solved. 
 
-For more information see the paper:
-Kolegov, K. S. (2023). Suppression of sawtooth oscillations when using a finite-difference scheme 
-for mass transfer simulation via the lubrication approximation in a droplet evaporated on a substrate.
-https://doi.org/10.48550/arXiv.2301.06983
-(in Russian language)
+How to cite:
+
+BibTex
+
+@article{Kolegov2023,
+  title = {Suppression of sawtooth oscillations when using a finite-difference scheme for mass transport simulation in a drying droplet on a substrate in the thin layer approximation},
+  volume = {27},
+  ISSN = {2310-7081},
+  url = {http://dx.doi.org/10.14498/vsgtu1994},
+  DOI = {10.14498/vsgtu1994},
+  number = {2},
+  journal = {Journal of Samara State Technical University,  Ser. Physical and Mathematical Sciences},
+  publisher = {Samara State Technical University},
+  author = {Kolegov,  K. S.},
+  year = {2023},
+  pages = {309–335}
+}
+
+Kolegov K. S. Suppression of Sawtooth Oscillations When Using a Finite-Difference Scheme for Mass Transport Simulation in a Drying Droplet on a Substrate in the Thin Layer Approximation // Journal of Samara State Technical University, Ser. Physical and Mathematical Sciences. 2023, Vol. 27, No. 2, Pp. 309–335. https://doi.org/10.14498/vsgtu1994 (in Russian language).
 
 Version 7
 Checking of the  mass conservation law has been added.
